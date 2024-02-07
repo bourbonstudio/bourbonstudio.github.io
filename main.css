@@ -1,12 +1,11 @@
+body {
+  background-image: url('Bourbon_Web_BG_03.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
 
-body { 
-    background-image: url('Bourbon_Web_BG_03.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center; 
-    background-size: cover;
-  }
-  
 .main {
   position: absolute;
   top: 50%;
@@ -25,7 +24,7 @@ body {
 
 .footer {
   position: absolute;
-  top:88%;
+  top: 88%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
@@ -40,49 +39,45 @@ body {
 .title {
   max-width: 100%;
 }
-  
+
 .subheader {
   text-align: center;
   font-family: "canto", serif;
   font-weight: 400;
   font-style: normal;
-  font-size:28px;
-  color:  rgb(254,150,130);
+  font-size: 28px;
+  color: rgb(254, 150, 130);
 }
 
-  
+
 a {
   font-family: "canto", serif;
   font-weight: 400;
   font-style: normal;
-  font-size:28px;
-  color:  rgb(250,244,222);
+  font-size: 28px;
+  color: rgb(250, 244, 222);
   text-decoration: none;
-  
+
 }
-  
+
 a:hover {
-  color:   rgb(254,150,130);
+  color: rgb(254, 150, 130);
 }
 
 @media screen and (orientation:portrait) {
 
-  .main {
-    max-width: 95%;
-  }
   .title {
-    margin-top:10%;
-
+    margin-top: 10%;
   }
 
-  .subheader { 
-    margin-left:10%;
-    margin-right:10%;
-    font-size: 36px;
+  .subheader {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 48px;
   }
 
   a {
-    font-size:36px;   
+    font-size: 48px;
   }
 
 }
